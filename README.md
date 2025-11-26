@@ -25,12 +25,9 @@ cd Hightalent
 Создайте файл `APIservice/.env`:
 
 ```env
-# Django
-SECRET_KEY=your-secret-key
-DEBUG=False
 LEVEL=PROD
 
-# PostgreSQL
+
 POSTGRES_DB=hightalent
 POSTGRES_USER=postgres
 POSTGRES_PASSWORD=your-password
