@@ -20,7 +20,7 @@ services:
       retries: 5
 
   db:
-    image: postgres:13.0-alpine
+    image: postgres:14.0-alpine
     restart: always
     volumes:
       - ./persistentdata/db:/var/lib/postgresql/data/
